@@ -1,0 +1,32 @@
+.no-tag-list{
+    list-style-type:none;
+}
+.task-input-field{
+    margin:5px;
+}
+.App{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.completed-tasks{
+    text-align: left;
+    border: 1.5px solid black;
+    background-color: black;
+    width: 150px;
+    font-size:20px;
+    border-radius: 5px;
+    color:white;
+    cursor:pointer;
+}
+.completed-tasks:hover{
+    background-color:darkgray;
+}
+button:hover{
+    cursor:pointer;
+}
+body{
+    background-image: linear-gradient(lightgray, turquoise);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}

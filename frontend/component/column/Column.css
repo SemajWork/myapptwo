@@ -1,0 +1,12 @@
+.column{
+    background-color: darkgray;
+    text-overflow: wrap;
+    text-wrap: "True";
+    color: black;
+    text-align:center;
+    border: 1.5px solid black;
+    margin: auto;
+    width: 400px;
+    margin:auto;
+    border-radius: 10px;
+}

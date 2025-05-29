@@ -1,0 +1,23 @@
+.task {
+    position: relative;
+    color: Black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+    border: 1.5px solid darkgray;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    touch-action: none;
+}
+.task:hover,.checkbox:hover{
+    cursor:pointer;
+}
+.remove-button{
+    position: absolute;
+    background-color:transparent;
+    touch-action: none;
+    right:15px;
+}
